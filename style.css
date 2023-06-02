@@ -194,12 +194,12 @@ padding: 10px;
 /* vedio */
 
 .vedio-container{
-    width: calc(100% -150px);
+    width: calc(100% - 250px);
     margin-top: 120px;
     margin-left: 250px;
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(3 , 30%);
+    grid-template-columns: repeat(3 , 1fr);
     gap: 25px 25px;
     overflow-x: hidden;
 }
@@ -207,7 +207,7 @@ padding: 10px;
 .vedio{
     min-height: 250px;
     height: auto;
-    /* object-fit: cover; */
+    object-fit: cover;
 }
 
 .thumbnail {
