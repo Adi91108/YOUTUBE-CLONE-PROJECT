@@ -207,7 +207,7 @@ padding: 10px;
 .vedio{
     min-height: 250px;
     height: auto;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .thumbnail {
